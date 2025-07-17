@@ -15,7 +15,7 @@ const PORT= process.env.PORT || 5000;
 
 //middleware
 app.use(cors({
-    origin: 'https://myleaderboardapp.netlify.app/', 
+    origin: 'https://myleaderboardapp.netlify.app', 
     methods: ['GET', 'POST','PUT'],
     credentials: true
 }));
